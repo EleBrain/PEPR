@@ -1,0 +1,43 @@
+public static void PlaySound(string soundName) 
+
+public static void SetStringDictionary(string key, string value)
+public static string GetStringDictionary(string key)
+public static void SetIntDictionary(string key, int value)
+public static int GetIntDictionary(string key)
+
+public static IEnumerator WaitForSeconds(float time)
+public static IEnumerator WaitClick()
+
+public static string MakeImage(string imageName, string spriteName)
+public static void ImageColorChange(string imageName, string colorRGBA)
+
+public static string MakeText(string textName, string text)
+public static void TextFontSizeChange(string textName, float size)
+public static void TextAdd(string textName, string text)
+public static void TextAlignChange(string textName, int number)
+
+public static string MakeButton(string buttonName, string actionName)
+
+public static string MakeInput(string inputName)
+public static string InputGetString(string inputName)
+
+public static string MakeVerticalScrollbar(string scrollbarName, string contentName)
+public static string MakeHorizontalScrollbar(string scrollbarName, string contentName)
+
+public static void AddVerticalLayout(string id)
+public static void AddHorizontalLayout(string id)
+public static void AddVerticalScrollRect(string id, string contentName)
+public static void AddHorizontalScrollRect(string id, string contentName)
+
+public static void GUISetParent(string id, string parentName)
+public static void GUIMove(string id, float x, float y)
+public static void GUISizeChange(string id, float w, float h)
+public static void GUIPivot(string id, float x, float y)
+public static void GUIAnchor(string id, float minX, float minY, float maxX, float maxY)
+public static void GUIVisibleChange(string GUIName, bool b)
+public static float GUIGetWidth(string id)
+public static float GUIGetHeight(string id)
+
+public static int RandomRange(int min, int max)
+
+public static void Save(string fileName)
